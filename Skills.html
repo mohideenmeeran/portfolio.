@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Skills - My Portfolio</title>
+    
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #FFEEEE, #DDEFBB);
+            color: #333;
+        }
+
+        
+        .navbar {
+            background-color: white;
+            padding: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar img {
+            width: 120px;
+            margin-right: auto;
+        }
+
+        .nav-btn {
+            margin-left: 20px;
+            padding: 8px 15px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #2D3C59;
+            text-decoration: none;
+        }
+
+        .nav-btn:hover {
+            color: orangered;
+        }
+
+        
+        .page-title {
+            margin-left: 150px;
+            margin-top: 40px;
+            color: #2D3C59;
+            font-size: 32px;
+        }
+
+        
+        .container {
+            background-color: #e8f1ff;
+            font-size: larger;
+            justify-content: space-around;
+            padding: 40px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            margin: 50px 100px;
+            border-radius: 10px;
+            animation-name: fadeIn;
+            animation-duration: 2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        
+        .skill-card {
+            background-color: white;
+            padding: 40px 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            margin: 0 15px;
+            min-width: 180px;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .skill-card h1 {
+            color: #2D3C59;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        
+        .html {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .css {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .js {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .python {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #666;
+            font-size: 14px;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+
+<body>
+   
+    <div class="navbar">
+        <img src="removedbg.png" alt="Logo">
+        <a href="project.html" class="nav-btn">Home</a>
+        <a href="education.html" class="nav-btn">Education</a>
+        <a href="skills.html" class="nav-btn">Skills</a>
+        <a href="#" class="nav-btn">Projects</a>
+        <a href="#" class="nav-btn">Interest</a>
+        <a href="#" class="nav-btn">Contact</a>
+    </div>
+
+   
+
+    
+    <div class="container">
+        <div class="skill-card">
+            <h1>HTML</h1>
+            <img class="html" src="./html.jpg" alt="HTML">
+        </div>
+
+        <div class="skill-card">
+            <h1>CSS</h1>
+            <img class="css" src="./css.webp" alt="CSS">
+        </div>
+
+        <div class="skill-card">
+            <h1>JAVASCRIPT</h1>
+            <img class="js" src="./OIP.jpg" alt="JavaScript">
+        </div>
+
+        <div class="skill-card">
+            <h1>PYTHON</h1>
+            <img class="python"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                alt="Python">
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        © 2026 My Portfolio. All rights reserved.
+    </div>
+</body>
+
+
+
+</html>

@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Education - My Portfolio</title>
+    <style>
+        /* Body Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #FFEEEE, #DDEFBB);
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: white;
+            padding: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar img {
+            width: 120px;
+            margin-right: auto;
+        }
+
+        .nav-btn {
+            margin-left: 20px;
+            padding: 8px 15px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #2D3C59;
+            text-decoration: none;
+        }
+
+        .nav-btn:hover {
+            color: orangered;
+        }
+
+        /* Page Title */
+        .page-title {
+            text-align: center;
+            margin: 40px 0 30px;
+            color: #2D3C59;
+            font-size: 28px;
+        }
+
+        /* Education Cards */
+        .education-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .education-card {
+            background-color: white;
+            border: 2px solid #f2efef;
+            margin: 15px;
+            padding: 20px;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .education-card:hover {
+            cursor: pointer;
+            background-color: #EAF2FF;
+            transform: scale(1.02);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .education-card h4 {
+            color: #2D3C59;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .education-card p {
+            color: #666;
+            font-size: 16px;
+            margin: 8px 0;
+        }
+
+        .education-card h5 {
+            color: orangered;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #666;
+            font-size: 14px;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <img src="removedbg.png" alt="Logo">
+        <a href="project.html" class="nav-btn">Home</a>
+        <a href="education.html" class="nav-btn">Education</a>
+        <a href="skills.html" class="nav-btn">Skills</a>
+        <a href="#" class="nav-btn">Projects</a>
+        <a href="#" class="nav-btn">Interest</a>
+        <a href="#" class="nav-btn">Contact</a>
+    </div>
+
+    <!-- Page Title -->
+    <h2 class="page-title">Educational Qualifications</h2>
+
+    <!-- Education Cards -->
+    <div class="education-container">
+        <div class="education-card">
+            <h4>V.S.B COLLEGE OF ENGINEERING TECHNICAL CAMPUS</h4>
+            <p>B.TECH ARTIFICIAL INTELLIGENCE & DATA SCIENCE</p>
+            <p>(2024-2028)</p>
+        </div>
+        
+        <div class="education-card">
+            <h4>CAMBRIDGE MATRIC HIGHER SECONDARY SCHOOL</h4>
+            <p>HSC (Maths Computer Science) - 75%</p>
+            <h5>(2023-2024)</h5>
+        </div>
+        
+        <div class="education-card">
+            <h4>ST. JOHNS HR SEC SCHOOL</h4>
+            <p>SSLC - 72%</p>
+            <h5>(2021-2022)</h5>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2026 My Portfolio. All rights reserved.
+    </div>
+</body>
+</html>
